@@ -76,9 +76,42 @@ Contraseña:
 
         <br/>
 
+        Tu Cumpleaños:
+        <br/>
+        <input type="date" name="birthday"/>
+        <br/>
+        <input type="file" name="myfile"/>
+        <br/>
+
+
         <button type="submit">Enviar</button>
         <input type="reset" value="Restablecer"/>
 
     </form>
+
+    <form>
+        <!-- CON ESTA FORMULA NO COLOCAMOS EN PLACEHOLDER ES MUCHO -->
+        <!-- el ID tiene que ser el mismo nombre que se le de al for -->
+
+        <label for="nombre">
+            Nombre:
+        <input type="text" name="nombre" id="nombre" placeholder="pon tu nombre"/>
+        </label>
+        <label for="Apellido">
+            Nombre:
+        <input type="text" name="Apellido" id="Apellido" placeholder="pon tu apellido"/>
+        </label>
+
+    <button type="submit">Enviar</button>
+    </form>
+    <hr/>
+
+    <h3>Login</h3>
+    <form>
+        <input type="text" name="primer nombre" placeholder="Nombre"/>
+        <input type="password" name="contraseña" placeholder="Contraseña"/>
+
+    </form>
+    
 </body>
 </html>
