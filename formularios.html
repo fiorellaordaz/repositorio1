@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios en HTML</h1>
+
+    <form action="·" method="post">
+        Name:
+<input type="text" name="primer nombre" placeholder="pon tu nombre"/>
+<br/>
+Apellido:
+<input type="text" apellido="primer apellido" placeholder="pon tu apellido"/>
+<br/>
+Email:
+<input type="email" name="correo electronico" placeholder="pon tu correo"/>
+<br/>
+Telefono:
+<input type="number" name="numero telefonico" placeholder="pon tu numero telefonico"/>
+<br/>
+Contraseña:
+<input type="password" name="contraseña" placeholder="pon tu contraseña"/>
+<br/>
+<input type="submit" value="enviar"/>
+<input  type="reset" value="resetear"/>
+    </form>
+
+    <hr/>
+
+    <form>
+        Elige tu Genero:
+        <br/>
+        <input type="radio" name="genero" id="femenino" checked/> Femenino <br/>
+        <input type="radio" name="genero" id="masculino"/> Masculino <br/>
+        <input type="radio" name="genero" id="otros"/> Otros <br/>
+        <br/><br/>
+        Elige tu Vehiculo:
+        <br/>
+        <input type="checkbox" name="vehiculo" value="coche"/> Coche <br/>
+        <input type="checkbox" name="vehiculo" value="moto"/> Coche <br/>
+        <input type="checkbox" name="vehiculo" value="bici"/> Coche <br/>
+
+        <br/><br/>
+        Elige tu Pais:
+        <br/>
+        <select name="pais">
+            <optgroup label="europa">
+            <option value="ES">España</option>
+            <option value="IT">Italia</option>
+            <option value="EN">Inglaterra</option>
+        </optgroup>
+        <optgroup label="America">
+            <option value="AR">Argentina</option>
+            <option value="VE" selected>Venezuela</option>
+        </optgroup>
+        </select>
+
+        <hr/>
+
+        <fieldset>
+<legend>Datos Personales</legend>
+<input type="text" name="primer nombre" placeholder="pon tu nombre"/>
+<br/>
+<input type="text" name="primer Apellido" placeholder="pon tu Apellido"/>
+<br/>
+
+        </fieldset>
+
+        <br/>
+
+        <textarea name="message" rows="20" cols="20" placeholder="escribe aqui"></textarea>
+
+        <br/>
+
+        <button type="submit">Enviar</button>
+        <input type="reset" value="Restablecer"/>
+
+    </form>
+</body>
+</html>
